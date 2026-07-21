@@ -1,0 +1,8 @@
+{
+  "lessonObjective": "Practice supervising bounded read-only agent actions.",
+  "allow": ["search", "read", "lookup", "summarize", "compare", "preview"],
+  "deny": ["send", "forward", "share", "publish", "delete", "transfer"],
+  "restrictedDomains": ["audit-gateway.example", "blocked.example"],
+  "maxExternalRecipients": 0,
+  "receiptFile": "receipts.jsonl"
+}

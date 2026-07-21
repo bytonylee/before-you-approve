@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+*.tsbuildinfo
+receipts.jsonl
+.env
+.env.local
+.vercel/
+submission/video/raw/
+submission/video/*.aiff
+submission/video/*.webm
+submission/video/*.mp4
+
+# Superseded pre-pivot artifacts kept only in the local workspace.
+intentgate.config.json
+design/intentgate-*.png
+src/components/DecisionBadge.tsx
+src/core/
+src/data/scenario.ts
+tests/evaluate.test.ts

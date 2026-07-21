@@ -1,0 +1,39 @@
+{
+  "name": "before-you-approve",
+  "version": "0.1.0",
+  "description": "A consequence-free simulator for practicing human supervision of AI agent actions.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "bya-trace": "proxy/bya-trace.mjs"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run cases:validate",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc -b --pretty false",
+    "cases:validate": "node scripts/drill-schema.mjs cases/*.json",
+    "trace:demo": "node proxy/bya-trace.mjs check --scenario injected-message",
+    "trace:verify": "node proxy/bya-trace.mjs verify"
+  },
+  "dependencies": {
+    "lucide-react": "0.577.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "vitest": "4.1.10"
+  }
+}
