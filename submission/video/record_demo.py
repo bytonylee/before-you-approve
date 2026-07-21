@@ -131,6 +131,8 @@ def main() -> None:
         def allow_step() -> None:
             pause(page, 3000)
             click(page, "Allow")
+            pause(page, 1200)
+            page.get_by_text("What would change the decision", exact=True).scroll_into_view_if_needed()
 
         segment(page, 16, allow_step)
 
@@ -140,6 +142,8 @@ def main() -> None:
             click(page, "Next action")
             pause(page, 3500)
             click(page, "Ask")
+            pause(page, 1200)
+            page.get_by_text("What would change the decision", exact=True).scroll_into_view_if_needed()
 
         segment(page, 16, ask_step)
 
@@ -147,7 +151,9 @@ def main() -> None:
             click(page, "Next action")
             pause(page, 3500)
             click(page, "Allow")
-            pause(page, 7000)
+            pause(page, 1000)
+            page.get_by_text("Simulated consequence", exact=True).scroll_into_view_if_needed()
+            pause(page, 6000)
             click(page, "Restart drill")
             advance_to_final(page, "Block")
 
