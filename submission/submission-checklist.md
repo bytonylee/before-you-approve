@@ -72,32 +72,32 @@
 
 ## Demo video
 
-- [ ] Follow `submission/demo-script.md` and show the working product, not a marketing deck.
+- [x] Follow `submission/demo-script.md` and show the working product, not a marketing deck.
 - [x] Keep the final runtime **below 3:00**; the reproducible final cut is exactly 2:40.
-- [ ] Include clear English audio covering what was built, how Codex was used, and how GPT-5.6 materially contributed at build time.
-- [ ] Show a complete decision-to-feedback loop in the first minute.
-- [ ] Show all three calibrated decisions: Allow, Ask, and Block.
-- [ ] Show one unsafe Allow producing a simulated consequence and the explicit no-real-action boundary.
-- [ ] Show the current-run completion signals and the seeded-data label on Progress.
-- [ ] Show the three selectable case domains.
-- [ ] Show technical proof: `npm run trace:demo`, passing focused tests, the checked-in GPT-5.6 authoring specification, a fixture's authorship metadata, and the validator.
-- [ ] Do not imply that GPT-5.6 runs in the learner experience or that an OpenAI API key is required.
-- [ ] Use only synthetic data and generic tool/provider labels.
-- [ ] Use no copyrighted music or third-party trademarks without permission. Silence behind the voiceover is safest.
-- [ ] Upload to YouTube early. Public or organizer-approved Unlisted visibility is acceptable, but the video must be viewable without signing in.
-- [ ] Test the final URL in an incognito window and confirm embedding is allowed.
-- [ ] Add accurate English captions.
+- [x] Include clear English audio covering what was built, how Codex was used, and how GPT-5.6 materially contributed at build time.
+- [x] Show a complete decision-to-feedback loop in the first minute.
+- [x] Show all three calibrated decisions: Allow, Ask, and Block.
+- [x] Show one unsafe Allow producing a simulated consequence and the explicit no-real-action boundary.
+- [x] Show the current-run completion signals and the seeded-data label on Progress.
+- [x] Show the three selectable case domains.
+- [x] Show technical proof: `npm run trace:demo`, passing focused tests, the checked-in GPT-5.6 authoring specification, a fixture's authorship metadata, and the validator.
+- [x] Do not imply that GPT-5.6 runs in the learner experience or that an OpenAI API key is required.
+- [x] Use only synthetic data and generic tool/provider labels.
+- [x] Use no copyrighted music or third-party trademarks without permission. Silence behind the voiceover is safest.
+- [x] Upload to YouTube early. Public or organizer-approved Unlisted visibility is acceptable, but the video must be viewable without signing in.
+- [x] Test the final URL in an unauthenticated browser and confirm embedding is allowed.
+- [x] Add accurate English captions.
 - [ ] Paste the final URL into Devpost and play it once from the submission preview.
 
 ## Images
 
-- [ ] Create a 3:2 thumbnail, preferably 1200 x 800, within Devpost's file-size limit.
-- [ ] Make the product name and Allow / Ask / Block decision recognizable at thumbnail size.
-- [ ] Capture the shot list in `submission/devpost-story.md` from the final deployed build.
-- [ ] Include one screenshot of the no-real-action consequence boundary.
-- [ ] Include one terminal screenshot only if receipt hashes and test output remain readable.
-- [ ] Crop browser chrome, personal tabs, notifications, and desktop clutter.
-- [ ] Add concise captions that point to visible evidence rather than repeating feature claims.
+- [x] Create a 3:2 thumbnail, preferably 1200 x 800, within Devpost's file-size limit.
+- [x] Make the product name and Allow / Ask / Block decision recognizable at thumbnail size.
+- [x] Capture the shot list in `submission/devpost-story.md` from the final deployed build.
+- [x] Include one screenshot of the no-real-action consequence boundary.
+- [x] Include one terminal screenshot only if receipt hashes and test output remain readable.
+- [x] Crop browser chrome, personal tabs, notifications, and desktop clutter.
+- [x] Add concise captions that point to visible evidence rather than repeating feature claims.
 
 ## Exact submission fields
 
@@ -108,7 +108,7 @@
 - [ ] **Built With:** React, TypeScript, Vite, Node.js, JSON-RPC, MCP, Codex, GPT-5.6
 - [x] **Try It Out:** https://before-you-approve-imtonylee.vercel.app
 - [x] **Repository:** https://github.com/bytonylee/before-you-approve
-- [ ] **Video:** `VIDEO_URL: manually paste the public or Unlisted YouTube URL`
+- [x] **Video:** https://youtu.be/Fl5SJ32Bnyk
 - [ ] **Codex /feedback Session ID:** `SESSION_ID: manually generate in the primary build task and paste exactly one ID`
 - [ ] **Testing instructions:** no-login path, case selection, expected four-action flow, Replay reset, and synthetic-data statement
 - [ ] **Team:** all members accepted
@@ -116,7 +116,7 @@
 
 ## Final 20-minute audit
 
-- [ ] Search the repository and submission for unresolved proof markers, the previous product name, provider-specific demo names, fake metrics, and secrets. The video URL and Session ID are the only expected placeholders.
+- [ ] Search the repository and submission for unresolved proof markers, the previous product name, provider-specific demo names, fake metrics, and secrets. The Session ID is the only expected placeholder.
 - [ ] Compare the video, story, README, live demo, and repository. They describe the same three cases, four actions per case, decision terms, and build-time GPT-5.6 role.
 - [ ] Verify the demo, repository, and YouTube links without authentication.
 - [ ] Confirm the deployed build corresponds to the final repository commit.

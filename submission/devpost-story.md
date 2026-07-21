@@ -8,7 +8,7 @@
 - **Primary audience:** Students learning to supervise action-taking AI, and the educators who teach them
 - **Try it out:** https://before-you-approve-imtonylee.vercel.app
 - **Source code:** https://github.com/bytonylee/before-you-approve
-- **Demo video:** `VIDEO_URL: paste the publicly viewable YouTube URL here`
+- **Demo video:** https://youtu.be/Fl5SJ32Bnyk
 - **Codex Session ID:** `SESSION_ID: use /feedback in the primary Codex build task, then paste the single ID here`
 - **Built with:** React, TypeScript, Vite, Node.js, JSON-RPC, MCP-shaped tool calls, Codex, GPT-5.6
 
