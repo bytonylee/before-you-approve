@@ -4,6 +4,8 @@
 
 **Live judge demo:** https://before-you-approve-imtonylee.vercel.app
 
+**1440p demo video:** https://youtu.be/Fl5SJ32Bnyk
+
 **Source:** https://github.com/bytonylee/before-you-approve
 
 Before You Approve is an interactive AI-literacy lesson for students and educators. A learner sees the assignment given to an agent, the literal MCP-shaped tool call it proposes, and where that action came from. They commit to **Allow**, **Ask**, or **Block** before the simulator reveals the consequence and the evidence that mattered.
