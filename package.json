@@ -24,6 +24,8 @@
     "trace:verify": "node proxy/bya-trace.mjs verify"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "5.3.0",
+    "@fontsource-variable/geist-mono": "5.3.0",
     "lucide-react": "0.577.0",
     "react": "19.2.7",
     "react-dom": "19.2.7"

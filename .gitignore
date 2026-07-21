@@ -8,6 +8,8 @@ receipts.jsonl
 .env.local
 .vercel/
 submission/video/raw/
+submission/video/scenes/
+submission/video/scenes.txt
 submission/video/*.aiff
 submission/video/*.webm
 submission/video/*.mp4

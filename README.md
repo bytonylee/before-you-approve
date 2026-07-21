@@ -10,7 +10,7 @@ Before You Approve is an interactive AI-literacy lesson for students and educato
 
 The goal is calibrated supervision, not fear. A useful reviewer should allow a narrow read, ask when scope is missing, and block an action that clearly exceeds the user's authority.
 
-![Before You Approve interface concept](design/before-you-approve-concept.png)
+![Before You Approve decision screen](submission/screenshots/final-action-decision-16x9.png)
 
 ## The learning loop
 
@@ -61,6 +61,10 @@ npm run trace:demo
 - Tests for the scenario contract, decision engine, MCP passthrough, withheld actions, process lifecycle, tamper detection, and receipt continuity across runs.
 
 The progress page intentionally labels its seeded history as **demo practice signals**. This prototype does not claim measured learning gains.
+
+## Visual system
+
+The interface translates tweakcn's official [Vercel theme preset](https://tweakcn.com/r/themes/vercel.json) into the existing plain-CSS component system rather than adding Tailwind or shadcn at the end of the build. It uses the preset's monochrome OKLCH surfaces, black-and-white primary controls, 8 px radius, restrained 1 px shadows, zero tracking, and self-hosted Geist Sans and Geist Mono. Green, amber, and red remain only where they communicate an actual Allow, Ask, or Block outcome.
 
 ## Scenario contract
 

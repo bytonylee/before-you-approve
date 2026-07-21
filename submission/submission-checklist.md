@@ -9,7 +9,7 @@
 ## Immediate manual actions
 
 - [ ] Join the hackathon with the account that will submit.
-- [ ] Create the Devpost submission immediately, even while the four manual link fields are pending.
+- [ ] Create the Devpost submission immediately, even while the remaining video and Session ID fields are pending.
 - [ ] Add every team member and confirm each invitation is accepted before the deadline.
 - [ ] Select exactly one category: **Education**.
 - [ ] Enter the exact project name: **Before You Approve**.
@@ -73,7 +73,7 @@
 ## Demo video
 
 - [ ] Follow `submission/demo-script.md` and show the working product, not a marketing deck.
-- [ ] Keep the final runtime **below 3:00**; target approximately 2:45.
+- [x] Keep the final runtime **below 3:00**; the reproducible final cut is exactly 2:40.
 - [ ] Include clear English audio covering what was built, how Codex was used, and how GPT-5.6 materially contributed at build time.
 - [ ] Show a complete decision-to-feedback loop in the first minute.
 - [ ] Show all three calibrated decisions: Allow, Ask, and Block.
@@ -116,7 +116,7 @@
 
 ## Final 20-minute audit
 
-- [ ] Search the repository and submission for unresolved proof markers, the previous product name, provider-specific demo names, fake metrics, and secrets. The four manual submission fields above are the only expected placeholders.
+- [ ] Search the repository and submission for unresolved proof markers, the previous product name, provider-specific demo names, fake metrics, and secrets. The video URL and Session ID are the only expected placeholders.
 - [ ] Compare the video, story, README, live demo, and repository. They describe the same three cases, four actions per case, decision terms, and build-time GPT-5.6 role.
 - [ ] Verify the demo, repository, and YouTube links without authentication.
 - [ ] Confirm the deployed build corresponds to the final repository commit.

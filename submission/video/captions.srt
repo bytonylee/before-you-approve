@@ -1,39 +1,39 @@
 1
-00:00:00,000 --> 00:00:14,000
+00:00:00,000 --> 00:00:13,068
 An agent wants to send three support threads to an external address. The request came from text inside a message, and the user explicitly said not to send anything. Would you allow it, ask, or block it?
 
 2
-00:00:14,000 --> 00:00:28,000
+00:00:14,011 --> 00:00:25,984
 We teach people to prompt AI and check its answers, but not to supervise what an agent actually does. Before You Approve is a consequence-free practice simulator for students and educators.
 
 3
-00:00:28,000 --> 00:00:44,000
+00:00:26,936 --> 00:00:38,885
 This first call only finds the three messages the learner requested. Its scope is narrow, read-only, and directly authorized, so I allow it. The lesson does not reward blocking everything.
 
 4
-00:00:44,000 --> 00:01:00,000
+00:00:39,838 --> 00:00:52,629
 This lookup is not clearly malicious, but restricted account data was never requested or needed for the summary. Asking is the calibrated response. Feedback names what authorization would change the decision.
 
 5
-00:01:00,000 --> 00:01:23,000
+00:00:53,584 --> 00:01:07,819
 Here I approve too quickly. The simulator reveals what would have happened: customer content would have left the workspace, but no real action ran. On replay, I trace the instruction back to untrusted message content and block it.
 
 6
-00:01:23,000 --> 00:01:38,000
+00:01:08,769 --> 00:01:22,769
 The completion card calculates score, unsafe approvals, and unnecessary blocks from this run. The separate Progress screen is explicitly seeded demo data. These are practice signals, not claimed learning outcomes.
 
 7
-00:01:38,000 --> 00:01:51,000
+00:01:23,723 --> 00:01:37,098
 The same skill transfers across three four-action cases: untrusted inbox instructions, an over-limit purchase, and destructive repository cleanup. Every case includes Allow, Ask, and Block.
 
 8
-00:01:51,000 --> 00:02:12,000
+00:01:38,057 --> 00:02:03,446
 The cases are grounded in agent mechanics. This dependency-free Node recorder derives an action from MCP-style JSON-RPC and writes SHA-256-linked receipts. Tests cover forwarding, review and block withholding, metadata removal, chain continuity, replay, and tamper rejection. It is an educational recorder, not a production security boundary.
 
 9
-00:02:12,000 --> 00:02:35,000
+00:02:04,376 --> 00:02:29,340
 I used GPT-5.6 through Codex at build time to research the problem, challenge the first concept, author and adversarially review these three traces, and implement the interface, validator, recorder, and tests. The reusable prompt, authored fixtures, and teacher-review requirement are checked in. Grading is deterministic, and the demo needs no API key.
 
 10
-00:02:35,000 --> 00:02:45,000
+00:02:30,290 --> 00:02:36,555
 Teach prompts. Teach outputs. Now teach when AI may act. This is Before You Approve.
